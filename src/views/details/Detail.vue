@@ -104,8 +104,9 @@
         position: absolute;
         top: 44px;
         bottom: 50px;
-        /* left: 0px;
-        right: 0px; */
+        left: 0px;
+        right: 0px;
         overflow: hidden;
+ 
     }
 </style>
