@@ -30,6 +30,7 @@
                 let id = this.$route.params.id;
                 let gooditem = this.$store.state.goods && this.$store.state.goods['pop'].list.find(item => item.id == id);
                 this.$store.dispatch('addCarts', gooditem);
+                this.$toast.show("添加到购物车成功",2000)
             }
         }
     }

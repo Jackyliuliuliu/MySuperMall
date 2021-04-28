@@ -13,7 +13,7 @@
 
             }
         },
-        methods: {
+        methods:{
             show(message, duration) {
                 this.isShow = true;
                 this.message = message;
@@ -23,8 +23,7 @@
                 }, duration);
 
             }
-        }
-
+        },
     }
 </script>
 
@@ -34,5 +33,6 @@
         top:50%;
         left: 50%;
         background-color: rgba(0, 0, 0, .75);
+        z-index: 999;
     }
 </style>
